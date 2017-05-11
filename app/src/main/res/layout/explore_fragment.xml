@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/explore_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.finalproject.ui.MainActivity">
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floating_action_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="44dp"
+
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorNormal="#da3c2f"
+        fab:menu_colorPressed="#dc4b3f"
+        fab:menu_colorRipple="#99d4d4d4"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/ic_action_name"
+        fab:menu_labels_colorNormal="#333"
+        fab:menu_labels_colorPressed="#444"
+        fab:menu_labels_colorRipple="#66efecec"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#ff705a"
+        fab:menu_labels_textSize="15sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="#66aff198"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_action_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_name_camera"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_action_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_gallery"
+            fab:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="8dp"
+        android:scrollbars="vertical" />
+</FrameLayout>
+
+    <!--<SearchView android:layout_height="40dp"-->
+    <!--android:id="@+id/searchView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--app:showAsAction="always|collapseActionView">-->
+    <!--</SearchView>-->
+
+    <!--android:clipToPadding="false"-->
+
+    <!--android:layout_marginRight="@dimen/fab_margin"-->
+    <!--android:layout_marginBottom="@dimen/fab_margin"-->
+
+
+    <!--<com.scalified.fab.FloatingActionButton-->
+    <!--android:id="@+id/floating_action_button"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|right"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--fab:type="DEFAULT"-->
+    <!--fab:button_color="#DA4336"-->
+    <!--fab:button_colorPressed="#E75043"-->
+    <!--fab:image="@drawable/fab_plus_icon"-->
+    <!--fab:image_size="18dp"-->
+    <!--fab:shadow_color="#757575"-->
+    <!--fab:shadow_radius="1.0dp"-->
+    <!--fab:shadow_xOffset="0.5dp"-->
+    <!--fab:shadow_yOffset="1.0dp"-->
+    <!--fab:stroke_color="@color/fab_material_blue_grey_500"-->
+    <!--fab:stroke_width="1.0dp"-->
+    <!--fab:button_colorRipple="@color/fab_material_black"-->
+    <!--fab:rippleEffect_enabled="false"-->
+    <!--fab:shadowResponsiveEffect_enabled="true"-->
+    <!--fab:show_animation="@enter_from_right/fab_roll_from_down"-->
+    <!--fab:hide_animation="@enter_from_right/fab_roll_to_down"-->
+    <!--/>-->
+
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginBottom="11dp"-->
+    <!--android:layout_marginLeft="11dp"-->
+    <!--android:layout_marginRight="11dp"-->
+
+
+
